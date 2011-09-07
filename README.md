@@ -1,6 +1,6 @@
 # Scheme-listings
 
-Example:
+LaTeX code example:
 
     \documentclass{article}
     \usepackage{listings}
@@ -34,3 +34,7 @@ Example:
     \end{lstlisting}
     
     \end{document}
+
+Rendered:
+
+![Rendered example](http://github.com/stuhlmueller/scheme-listings/raw/master/example.png)
