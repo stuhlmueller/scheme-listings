@@ -37,6 +37,10 @@ LaTeX code:
     
     \end{document}
 
+As an alternative to `lstlisting`, Scheme code can also be included from an external file:
+
+    \lstinputlisting{ycombinator.ss}
+
 Rendered:
 
 ![Rendered example](http://github.com/stuhlmueller/scheme-listings/raw/master/example.png)
