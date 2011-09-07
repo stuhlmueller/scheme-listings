@@ -1,6 +1,8 @@
 # Scheme listings in LaTeX
 
-LaTeX code example:
+## Example
+
+LaTeX code:
 
     \documentclass{article}
     \usepackage{listings}
@@ -38,3 +40,15 @@ LaTeX code example:
 Rendered:
 
 ![Rendered example](http://github.com/stuhlmueller/scheme-listings/raw/master/example.png)
+
+## Installation
+
+The `scheme-listings` directory must be on your TeX search path.
+
+To use LaTeX from the Bash shell, add this to your shell config file (e.g. `.bashrc`):
+
+    export TEXINPUTS=/path/to/scheme-listings/:$TEXINPUTS
+    
+For Emacs, use:
+
+    (setenv "TEXINPUTS" (concat "/path/to/scheme-listings/:" (getenv "TEXINPUTS")))
