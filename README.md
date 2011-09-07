@@ -1,4 +1,4 @@
-# Scheme-listings
+# Scheme listings in LaTeX
 
 LaTeX code example:
 
