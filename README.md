@@ -1,4 +1,4 @@
-# Scheme listings in LaTeX
+# Scheme syntax highlight for the "listings" package in LaTeX
 
 ## Example
 
