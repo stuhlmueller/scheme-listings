@@ -1,5 +1,7 @@
 # Scheme listings in LaTeX
 
+ Scheme syntax highlighting for the LaTeX listings package
+
 ## Example
 
 LaTeX code:
